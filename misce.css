@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: rgb(80, 62, 68);
+    color: aliceblue;
+}
+.container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(15, 14, 15);
+}
+.btn{
+    background-color: rgb(20, 20, 223);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(44, 44, 126);
+}
+.popover {
+    display: none;
+    z-index: 1;
+    background-color: brown;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+    width: 200px;
+
+
+    
+}
+.popover.act{
+    display: block;
+}
